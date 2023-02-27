@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=w0VEOghdMpQ
+
+npm axios (facilite le fetch de l'api)
+
+npm run dev
+
+??
+npm run build
+npm run deploy

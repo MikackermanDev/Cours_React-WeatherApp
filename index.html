@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App React</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-gauche">
+      <img class="weather-icon large" src="icons/sun.svg" data-current-icon />
+      <div class="header-current-temp">
+        <span data-current-temp>31</span>°
+      </div>
+    </div>
+    <div class="header-droite">
+      <div class="info-group">
+        <div class="label">Haut</div>
+        <div><span data-current-high>32</span>°</div>
+      </div>
+      <div class="info-group">
+        <div class="label">FL Haut</div>
+        <div><span data-current-fl-high>27</span>°</div>
+      </div>
+      <div class="info-group">
+        <div class="label">Vent</div>
+        <div><span data-current-wind>9</span><span class="value-sub-info"> km/h</span></div>
+      </div>
+      <div class="info-group">
+        <div class="label">Bas</div>
+        <div><span data-current-low>19</span>°</div>
+      </div>
+      <div class="info-group">
+        <div class="label">FL Bas</div>
+        <div><span data-current-fl-low>12</span>°</div>
+      </div>
+      <div class="info-group">
+        <div class="label">Pluie</div>
+        <div><span data-current-precip>12</span><span class="value-sub-info"> mm</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="day-section" data-day-section>
+    <div class="day-card">
+      <img src="icons/cloud.svg" class="weather-icon">
+      <div class="day-card-date">Lundi</div>
+      <div>32°</div>
+    </div>
+    <div class="day-card">
+      <img src="icons/cloud-bolt.svg" class="weather-icon">
+      <div class="day-card-date">Mardi</div>
+      <div>21°</div>
+    </div>
+    <div class="day-card">
+      <img src="icons/cloud.svg" class="weather-icon">
+      <div class="day-card-date">Mercredi</div>
+      <div>30°</div>
+    </div>
+    <div class="day-card">
+      <img src="icons/cloud.svg" class="weather-icon">
+      <div class="day-card-date">Jeudi</div>
+      <div>23°</div>
+    </div>
+    <div class="day-card">
+      <img src="icons/smog.svg" class="weather-icon">
+      <div class="day-card-date">Vendredi</div>
+      <div>24°</div>
+    </div>
+    <div class="day-card">
+      <img src="icons/snowflake.svg" class="weather-icon">
+      <div class="day-card-date">Samedi</div>
+      <div>27°</div>
+    </div>
+    <div class="day-card">
+      <img src="icons/cloud.svg" class="weather-icon">
+      <div class="day-card-date">Dimanche</div>
+      <div>33°</div>
+    </div>
+  </section>
+
+  <table class="hour-section">
+    <tbody data-hour-section>
+      <tr class="hour-row">
+        <td>
+          <div class="info-group">
+            <div class="label">Mardi</div>
+            <div>15 h</div>
+          </div>
+        </td>
+        <td> <img src="icons/cloud.svg" class="weather-icon"></td>
+        <td>
+          <div class="info-group">
+            <div class="label">Temp</div>
+            <div>31°</div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">FL Temp</div>
+            <div>33°</div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">Vent</div>
+            <div>31 <span class="value-sub-info"> km/h</span> </div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">Pluie</div>
+            <div>8<span class="value-sub-info"> mm</span> </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="hour-row">
+        <td>
+          <div class="info-group">
+            <div class="label">Mardi</div>
+            <div>15 h</div>
+          </div>
+        </td>
+        <td> <img src="icons/cloud.svg" class="weather-icon"></td>
+        <td>
+          <div class="info-group">
+            <div class="label">Temp</div>
+            <div>31°</div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">FL Temp</div>
+            <div>33°</div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">Vent</div>
+            <div>31 <span class="value-sub-info"> km/h</span> </div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">Pluie</div>
+            <div>8<span class="value-sub-info"> mm</span> </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="hour-row">
+        <td>
+          <div class="info-group">
+            <div class="label">Mardi</div>
+            <div>15 h</div>
+          </div>
+        </td>
+        <td> <img src="icons/cloud.svg" class="weather-icon"></td>
+        <td>
+          <div class="info-group">
+            <div class="label">Temp</div>
+            <div>31°</div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">FL Temp</div>
+            <div>33°</div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">Vent</div>
+            <div>31 <span class="value-sub-info"> km/h</span> </div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">Pluie</div>
+            <div>8<span class="value-sub-info"> mm</span> </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="hour-row">
+        <td>
+          <div class="info-group">
+            <div class="label">Mardi</div>
+            <div>15 h</div>
+          </div>
+        </td>
+        <td> <img src="icons/cloud.svg" class="weather-icon"></td>
+        <td>
+          <div class="info-group">
+            <div class="label">Temp</div>
+            <div>31°</div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">FL Temp</div>
+            <div>33°</div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">Vent</div>
+            <div>31 <span class="value-sub-info"> km/h</span> </div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">Pluie</div>
+            <div>8<span class="value-sub-info"> mm</span> </div>
+          </div>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
+  <template id="day-card-template">
+    <div class="day-card">
+      <img data-icon class="weather-icon">
+      <div class="day-card-date" data-date></div>
+      <div><span data-temp></span>°</div>
+    </div>
+  </template>
+  <template id="hour-row-template">
+    <tr class="hour-row">
+      <td>
+        <div class="info-group">
+          <div class="label" data-day></div>
+          <div data-time></div>
+        </div>
+      </td>
+      <td> <img data-icon class="weather-icon"></td>
+      <td>
+        <div class="info-group">
+          <div class="label">Temp</div>
+          <div><span data-temp></span>°</div>
+        </div>
+      </td>
+      <td>
+        <div class="info-group">
+          <div class="label">FL Temp</div>
+          <div data-fl-temp>°</div>
+        </div>
+      </td>
+      <td>
+        <div class="info-group">
+          <div class="label">Vent</div>
+          <div><span data-vent></span></div> <span class="value-sub-info"> km/h</span>
+        </div>
+        </div>
+      </td>
+      <td>
+        <div class="info-group">
+          <div class="label">Pluie</div>
+          <div><span data-pluie></span><span class="value-sub-info"> mm</span> </div>
+        </div>
+      </td>
+    </tr>
+  </template>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
