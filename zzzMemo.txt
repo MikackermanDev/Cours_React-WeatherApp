@@ -1,10 +1,11 @@
 https://www.youtube.com/watch?v=w0VEOghdMpQ
 
-npm axios (facilite le fetch de l'api)
 
+npm create vite@latest
+npm i
 npm run dev
 
-
+npm axios (facilite le fetch de l'api)
 
 ??
 npm run build
